@@ -57,6 +57,7 @@ bool logic_func (const string& str, size_t ind)
 
 int main()
 {
-	string st = "((((,))),)";
-	cout << logic_func("|(t,f)"s, 0) << endl;
+	string st;
+	cin >> st;
+	cout << logic_func(st, 0) << endl;
 }

@@ -41,5 +41,7 @@ bool func (long long N, long long sum, long long head, long long tail)
 
 int main()
 {
-	func (0, 0, 12345678, 9);
+	long long N, digits;
+	cin >> N >> digits;
+	func (N, 0, digits /10, digits % 10);
 }
